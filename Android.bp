@@ -155,6 +155,28 @@ android_app_import {
 }
 
 android_app_import {
+	name: "HotwordEnrollmentOKGoogleWCD9340",
+	owner: "sony",
+	apk: "proprietary/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "HotwordEnrollmentXGoogleWCD9340",
+	owner: "sony",
+	apk: "proprietary/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "SomcMovieCreator-release",
 	owner: "sony",
 	apk: "proprietary/priv-app/SomcMovieCreator-release/SomcMovieCreator-release.apk",
@@ -180,6 +202,17 @@ android_app_import {
 	name: "WfdService",
 	owner: "sony",
 	apk: "proprietary/priv-app/WfdService/WfdService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "com.qualcomm.location",
+	owner: "sony",
+	apk: "proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -609,4 +642,3 @@ android_app_import {
 	},
 	soc_specific: true,
 }
-
