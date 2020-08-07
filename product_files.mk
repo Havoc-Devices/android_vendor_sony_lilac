@@ -15,19 +15,19 @@
 #
 
 PRODUCT_COPY_FILES += \
-	vendor/sony/lilac/proprietary/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qti.dpmframework.xml \
-	vendor/sony/lilac/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
-	vendor/sony/lilac/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
-	vendor/sony/lilac/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qcrilhook.xml \
-	vendor/sony/lilac/proprietary/product/lib/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.gnss@3.0.so \
+    vendor/sony/lilac/proprietary/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qti.dpmframework.xml \
+    vendor/sony/lilac/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
+    vendor/sony/lilac/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
+    vendor/sony/lilac/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qcrilhook.xml \
+    vendor/sony/lilac/proprietary/product/lib/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.gnss@3.0.so \
     vendor/sony/lilac/proprietary/product/lib64/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.gnss@3.0.so
 
 # Testing jar
 PRODUCT_COPY_FILES += \
-	vendor/sony/lilac/proprietary/framework/com.sonymobile.thermal_engine.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonymobile.thermal_engine.jar \
-	vendor/sony/lilac/proprietary/framework/com.sonyericsson.psm.sysmonservice.thermal_impl.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonyericsson.psm.sysmonservice.thermal_impl.jar
+    vendor/sony/lilac/proprietary/framework/com.sonymobile.thermal_engine.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonymobile.thermal_engine.jar \
+    vendor/sony/lilac/proprietary/framework/com.sonyericsson.psm.sysmonservice.thermal_impl.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonyericsson.psm.sysmonservice.thermal_impl.jar
 
 # XML for jars
 PRODUCT_COPY_FILES += \
-	vendor/sony/lilac/proprietary/etc/permissions/com.sonymobile.thermal_engine.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonymobile.thermal_engine.xml \
-	vendor/sony/lilac/proprietary/etc/permissions/com.sonyericsson.psm.sysmonservice.thermal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonyericsson.psm.sysmonservice.thermal.xml
+    vendor/sony/lilac/proprietary/etc/permissions/com.sonymobile.thermal_engine.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonymobile.thermal_engine.xml \
+    vendor/sony/lilac/proprietary/etc/permissions/com.sonyericsson.psm.sysmonservice.thermal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonyericsson.psm.sysmonservice.thermal.xml
