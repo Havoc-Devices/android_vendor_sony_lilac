@@ -599,13 +599,13 @@ PRODUCT_PACKAGES += \
     SomcMovieCreator-release \
     SoundPhotoCamera-xhdpi-release \
     WfdService \
-    com.qualcomm.location \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
     WfdCommon \
     com.fingerprints.extension \
     qcrilhook
+
 PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/sony/lilac/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
