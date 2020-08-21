@@ -18,6 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/sony/lilac
 
 include vendor/sony/lilac/product_files.mk
+include vendor/sony/lilac/gps-test.mk
 
 PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/bin/bt_ssr_dumper:$(TARGET_COPY_OUT_SYSTEM)/bin/bt_ssr_dumper \
