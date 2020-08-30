@@ -24,7 +24,6 @@ include vendor/sony/lilac/product_files.mk
 PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/bin/bt_ssr_dumper:$(TARGET_COPY_OUT_SYSTEM)/bin/bt_ssr_dumper \
     vendor/sony/lilac/proprietary/bin/cacaoserver:$(TARGET_COPY_OUT_SYSTEM)/bin/cacaoserver \
-    vendor/sony/lilac/proprietary/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM)/bin/dpmd \
     vendor/sony/lilac/proprietary/bin/mssconfig:$(TARGET_COPY_OUT_SYSTEM)/bin/mssconfig \
     vendor/sony/lilac/proprietary/bin/perfservice:$(TARGET_COPY_OUT_SYSTEM)/bin/perfservice \
     vendor/sony/lilac/proprietary/bin/sony-modem-switcher:$(TARGET_COPY_OUT_SYSTEM)/bin/sony-modem-switcher \
@@ -266,7 +265,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/etc/firmware/tztpm.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.mdt \
     vendor/sony/lilac/proprietary/etc/firmware/ufs/01AD-483238553632333031414D5220202020-D003.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ufs/01AD-483238553632333031414D5220202020-D003.bin \
     vendor/sony/lilac/proprietary/etc/init/cacaoserver.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/cacaoserver.rc \
-    vendor/sony/lilac/proprietary/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/dpmd.rc \
     vendor/sony/lilac/proprietary/etc/init/mssconfig.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/mssconfig.rc \
     vendor/sony/lilac/proprietary/etc/init/perfservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/perfservice.rc \
     vendor/sony/lilac/proprietary/etc/init/startup-logger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/startup-logger.rc \
@@ -329,6 +327,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/framework/izat.xt.srv.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/izat.xt.srv.jar \
     vendor/sony/lilac/proprietary/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/qti-telephony-common.jar \
     vendor/sony/lilac/proprietary/framework/semcrilextension.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/semcrilextension.jar \
+    vendor/sony/lilac/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
     vendor/sony/lilac/proprietary/framework/uimlpalibrary.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/uimlpalibrary.jar \
     vendor/sony/lilac/proprietary/framework/vendor.qti.ims.callinfo-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.ims.callinfo-V1.0-java.jar \
     vendor/sony/lilac/proprietary/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar \
