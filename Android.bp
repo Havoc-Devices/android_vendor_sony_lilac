@@ -490,3 +490,39 @@ android_app_import {
 	},
 	soc_specific: true,
 }
+<<<<<<< Updated upstream
+
+android_app_import {
+        name: "CACertService",
+        owner: "sony",
+        apk: "proprietary/vendor/app/CACertService/CACertService.apk",
+        certificate: "platform",
+        dex_preopt: {
+                enabled: false,
+        },
+        soc_specific: true,
+}
+
+android_app_import {
+        name: "CneApp",
+        owner: "sony",
+        apk: "proprietary/vendor/app/CneApp/CneApp.apk",
+        certificate: "platform",
+        dex_preopt: {
+                enabled: false,
+        },
+        soc_specific: true,
+}
+
+android_app_import {
+        name: "IWlanService",
+        owner: "sony",
+        apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
+        certificate: "platform",
+        dex_preopt: {
+                enabled: false,
+        },
+        soc_specific: true,
+}
+=======
+>>>>>>> Stashed changes
