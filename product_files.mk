@@ -14,11 +14,6 @@
 # limitations under the License.
 #
 
-PRODUCT_COPY_FILES += \
-    vendor/sony/lilac/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
-    vendor/sony/lilac/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
-    vendor/sony/lilac/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qcrilhook.xml
-
 # Testing jar
 PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/framework/com.sonymobile.thermal_engine.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonymobile.thermal_engine.jar \
