@@ -599,7 +599,6 @@ PRODUCT_PACKAGES += \
     CNEService \
     CameraCommon \
     CameraPanorama-release \
-    CustomizationSelector \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
     SemcCameraUI-xxhdpi-release \
