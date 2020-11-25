@@ -1060,8 +1060,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/lilac/proprietary/vendor/etc/sony_effect/znr_param_48k_SubSemCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/znr_param_48k_SubSemCam.tbl \
     vendor/sony/lilac/proprietary/vendor/etc/sony_effect/znr_param_48k_SubSoiCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/sony_effect/znr_param_48k_SubSoiCam.tbl \
     vendor/sony/lilac/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/sony/lilac/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml \
-    vendor/sony/lilac/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml \
     vendor/sony/lilac/proprietary/vendor/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.bin \
     vendor/sony/lilac/proprietary/vendor/etc/wifi/fstman.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/fstman.ini \
     vendor/sony/lilac/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
