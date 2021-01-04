@@ -1,5 +1,5 @@
 /**
- * Copyright (C) 2019-2020 The LineageOS Project
+ * Copyright (C) 2019-2021 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,123 +17,6 @@
  */
 
 soong_namespace {
-}
-
-android_app_import {
-	name: "CameraAddonPermission-release",
-	owner: "sony",
-	apk: "proprietary/app/CameraAddonPermission-release/CameraAddonPermission-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
-	name: "CameraCommonPermission-release",
-	owner: "sony",
-	apk: "proprietary/app/CameraCommonPermission-release/CameraCommonPermission-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
-	name: "CameraExtensionPermission-release",
-	owner: "sony",
-	apk: "proprietary/app/CameraExtensionPermission-release/CameraExtensionPermission-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
-	name: "ImageProcessorPermission-release",
-	owner: "sony",
-	apk: "proprietary/app/ImageProcessorPermission-release/ImageProcessorPermission-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
-	name: "ArtFilterCamera-xhdpi-release",
-	owner: "sony",
-	apk: "proprietary/priv-app/ArtFilterCamera-xhdpi-release/ArtFilterCamera-xhdpi-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "CameraCommon",
-	owner: "sony",
-	apk: "proprietary/priv-app/CameraCommon/CameraCommon.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "CameraPanorama-release",
-	owner: "sony",
-	apk: "proprietary/priv-app/CameraPanorama-release/CameraPanorama-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "SomcMovieCreator-release",
-	owner: "sony",
-	apk: "proprietary/priv-app/SomcMovieCreator-release/SomcMovieCreator-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "SoundPhotoCamera-xhdpi-release",
-	owner: "sony",
-	apk: "proprietary/priv-app/SoundPhotoCamera-xhdpi-release/SoundPhotoCamera-xhdpi-release.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "HotwordEnrollmentOKGoogleWCD9340",
-	owner: "sony",
-	apk: "proprietary/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
-	name: "HotwordEnrollmentXGoogleWCD9340",
-	owner: "sony",
-	apk: "proprietary/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
 }
 
 android_app_import {
@@ -260,8 +143,8 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib64/libaudio_log_utils.so"],
 		},
 	},
-    check_elf_files: false,
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -280,8 +163,8 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib64/libdsi_netctrl.so"],
 		},
 	},
-    check_elf_files: false,
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -300,8 +183,8 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib64/libgpustats.so"],
 		},
 	},
-    check_elf_files: false,
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -320,8 +203,8 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib64/libmiscta.so"],
 		},
 	},
-    check_elf_files: false,
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -340,8 +223,8 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib64/libqmi_common_so.so"],
 		},
 	},
-    check_elf_files: false,
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -360,8 +243,8 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib64/libqmiservices.so"],
 		},
 	},
-    check_elf_files: false,
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -380,8 +263,8 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib64/libsdm-disp-vndapis.so"],
 		},
 	},
-    check_elf_files: false,
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -400,8 +283,8 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib64/libta.so"],
 		},
 	},
-    check_elf_files: false,
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -420,8 +303,8 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib64/libthermalclient.so"],
 		},
 	},
-    check_elf_files: false,
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -440,8 +323,8 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/vendor/lib64/libtime_genoff.so"],
 		},
 	},
-    check_elf_files: false,
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -489,3 +372,4 @@ android_app_import {
 	},
 	soc_specific: true,
 }
+
